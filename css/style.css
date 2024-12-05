@@ -100,13 +100,6 @@ img {
 .team-list {
   background-color: #ffffff;
 }
-.app-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 
 /* #region FlexBox-Header1 */
 .container {
@@ -237,18 +230,16 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/* .container-name .advantages-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 8px;
-  } */
-/* .container-name .advantages-text {
+.advantages-text-app {
   display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   align-items: center;
-  justify-content: center;
-  display: flex;
-} */
+}
+
 /* #endregion */
 /*  */
 /* #region APP5 */
@@ -273,8 +264,14 @@ img {
   border-top: none;
 }
 .app-title {
+  display: flex;
   margin-bottom: 8px;
   align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 /* #endregion */
 /*  */
