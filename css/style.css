@@ -108,7 +108,7 @@ img {
   color: #2e2f42;
 }
 
-/* #region FlexBox-Header */
+/* #region FlexBox-Header1 */
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -141,7 +141,7 @@ img {
   margin-right: 76px;
 }
 /* #endregion */
-/* #region Section1 */
+/* #region Section2*/
 .section-order {
   background-color: #2e2f42;
   padding-top: 188px;
@@ -181,7 +181,7 @@ img {
 }
 /* #endregion */
 /*  */
-/* #region Advantages2 */
+/* #region Advantages3 */
 .advantages-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -199,11 +199,15 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  justify-content: center;
   align-items: center;
+  display: flex;
 }
 .advantages-list {
   display: flex;
   gap: 24px;
+  align-items: center;
+  justify-content: center;
 }
 .advantages-item {
   width: calc((100% - 72px) / 4);
@@ -213,7 +217,7 @@ img {
 }
 /* #endregion */
 /*  */
-/* #region Team Card3 */
+/* #region Team Card4 */
 .team-card {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -233,20 +237,21 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.container-name .advantages-list {
+/* .container-name .advantages-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  } */
+/* .container-name .advantages-text {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
-}
-.container-name .advantages-text {
-  align-items: center;
-  justify-content: center;
   display: flex;
-}
+} */
 /* #endregion */
 /*  */
-/* #region APP4 */
+/* #region APP5 */
 .section-app {
   padding-top: 120px;
   padding-bottom: 120px;
