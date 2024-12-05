@@ -80,34 +80,11 @@ img {
   color: #404bbf;
 }
 
-.order-btn {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-}
 .order-btn:hover,
 .order-btn:focus {
   background-color: #404bbf;
 }
-.advantages-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.advantages-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .team-card {
   background-color: #f4f4fd;
 }
@@ -189,6 +166,8 @@ img {
 /* #region Section1 */
 .section-order {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .order-title {
   display: flex;
@@ -200,6 +179,99 @@ img {
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+  max-width: 496px;
 }
-
+.order-btn {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  margin-bottom: 188px;
+}
+/* #endregion */
+/*  */
+/* #region Advantages2 */
+.advantages-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.advantages-item {
+  width: calc((100% - 72px) / 4);
+}
+.advantages-title {
+  margin-bottom: 8px;
+}
+/* #endregion */
+/*  */
+/* #region Team Card3 */
+.team-card {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-title {
+  margin-bottom: 72px;
+}
+.team-item {
+  display: flex;
+  gap: 24px;
+}
+.team-list {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+.container-name {
+  /* padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px; */
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-name.advantages-list {
+  align-items: center;
+  margin-bottom: 8px;
+}
+.advantages-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+}
 /* #endregion */
