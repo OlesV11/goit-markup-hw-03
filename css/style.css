@@ -111,7 +111,6 @@ img {
   background: #2e2f42;
 }
 .footer-logo {
-  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -119,7 +118,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
 }
 .footer-studio {
   color: #f4f4fd;
@@ -224,6 +222,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  align-items: center;
 }
 .advantages-list {
   display: flex;
@@ -270,7 +269,7 @@ img {
 }
 /* #endregion */
 /*  */
-/* #region APP */
+/* #region APP4 */
 .section-app {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -293,11 +292,16 @@ img {
 }
 .app-title {
   margin-bottom: 8px;
+  align-items: center;
 }
 /* #endregion */
 /*  */
 /* #region Footer */
 footer {
   padding: 100px 0;
+}
+.footer-studio {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /* #endregion */
