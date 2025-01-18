@@ -195,12 +195,14 @@ img {
   color: #434455;
   justify-content: center;
   display: flex;
+  text-align: center;
 }
 .advantages-list {
   display: flex;
   gap: 24px;
   margin-bottom: 8px;
   justify-content: center;
+  text-align: center;
 }
 .advantages-item {
   width: calc((100% - 72px) / 4);
